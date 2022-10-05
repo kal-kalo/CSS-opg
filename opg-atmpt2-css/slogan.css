@@ -1,0 +1,16 @@
+.slogan{
+    grid-column:1 / span 13;
+    grid-row: 4/ span 1 ;
+    height: 60px;
+    text-align: center;
+    border-top: thin solid black;
+    border-bottom: thin solid black;
+    
+}
+
+@media screen and (max-width: 750px) {
+    .slogan{
+    grid-column:1 / span 13;
+        height: fit-content;
+    }
+}

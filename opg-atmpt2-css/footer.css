@@ -1,0 +1,37 @@
+
+.adress-codingLaws{
+    grid-column: 1 / span 13;
+    grid-row: 10/ span 1;
+
+    border-top: thin solid black;
+    border-bottom: thick double black;
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 40px;
+}
+
+
+
+@media screen and (max-width: 750px){
+
+    .adress-codingLaws{
+        height: fit-content;
+        grid-column: 1 / span 9;
+        grid-row: 25 / span 1;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+       
+    }
+  
+/*     .adress-codingLaws{
+        grid-row: 15/ span 1;
+        grid-column: 1 / -1;
+    }
+    .adress-codingLaws{
+        grid-column: 1 / span 15;
+        grid-row: 22 / span 3;
+    } */
+}

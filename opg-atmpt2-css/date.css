@@ -1,0 +1,25 @@
+.date{
+    grid-column: 5 / 10;
+    grid-row: 5 / 7 ;
+    border-right: thin solid black;
+    border-left: thin solid black;
+
+    text-align: center;
+
+    gap: 30px;
+
+    display: flex;
+justify-content: flex-start;
+}
+
+@media screen and (max-width: 750px){
+    .date{
+        border: none;
+        color: black;
+        grid-row: 9 / span 2;
+        grid-column: 1/-1;
+        background-color: #6fabab;
+        height: 400px;
+
+    }
+}

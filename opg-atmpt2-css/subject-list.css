@@ -1,0 +1,21 @@
+.subject-list{
+    grid-column: 1 / span 2;
+    grid-row: 5 / 6 ;
+   border-bottom: thin solid black;
+height: fit-content;
+padding-bottom: 30px;
+   padding-top: 20px;
+}
+
+.subject-list li:first-child{
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 750px){
+    .subject-list{
+        grid-row:11/ span 5;
+        grid-column: 1 / -1;
+        text-align: center;
+    }
+}

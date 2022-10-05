@@ -1,0 +1,18 @@
+.empty1{
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 13;
+    height: 30px;
+}
+
+.empty2{
+    grid-row: 9 / span 1;
+    grid-column: 1 / span 13;    
+    height: 30px;
+
+}
+
+@media screen and (max-width: 750px) {
+    .empty1{
+        grid-row: none;
+    }
+}

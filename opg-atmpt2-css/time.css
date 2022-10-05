@@ -1,0 +1,19 @@
+.time{
+
+   /*  grid-column: 10 / 14;
+    grid-row: 10 / 16; */
+    grid-row: 3 / span 1 ;
+    grid-column: 7 / span 1;
+
+    border-right: thin solid black;
+    border-left: thin solid black;
+    writing-mode: vertical-lr;
+  
+}
+
+@media screen and (max-width: 750px) {
+    .time{
+    grid-column: 5 / span 1;
+    
+    }
+}

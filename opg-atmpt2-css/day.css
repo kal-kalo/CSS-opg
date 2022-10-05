@@ -1,0 +1,62 @@
+#span-mon-sep{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    height: 100px;
+}
+
+#span-mon-sep span:nth-child(1){
+
+    display: flex;
+    align-items: center;
+    border-left: thin solid black;
+    padding-left: 10px;
+}
+#span-mon-sep span:nth-child(2){
+    
+    font-size: 3em;
+    font-family: Cormorant, serif;
+   vertical-align: super;
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+   justify-self: flex-start;
+   align-self: flex-start;
+  
+
+
+   
+}
+#span-mon-sep span:nth-child(3){
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.date :nth-child(4){
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+}
+
+.date :nth-child(2){
+    font-weight: bolder;
+    font-family: 'Cormorant', serif;
+    font-size: 1.5em;
+}
+
+.date :nth-child(2) :nth-child(1){
+    font-weight: normal;
+    font-style: italic;
+    font-family: 'Cormorant', serif;
+    font-size: 1em;
+}
+
+.date :nth-child(2) :nth-child(2){
+    font-weight: normal;
+    font-style: italic;
+    font-family: 'Cormorant', serif;
+    font-size: 1em;
+
+}

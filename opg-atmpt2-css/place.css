@@ -1,0 +1,21 @@
+.place{
+    grid-column: 2/ span 4;
+    grid-row: 3 / span 1 ;
+
+    font-family: var(--font-accent);
+    font-size: 1em;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 30px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+@media screen and (max-width: 750px) {
+    .place{
+        grid-column: 1/ span 4;
+       
+
+    }
+}
